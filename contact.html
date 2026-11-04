@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <p>We would love to hear from you!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="blog.html">Blog</a> | 
+        <a href="announcements.html">Announcements</a> | 
+        <a href="about.html">About</a> | 
+        <a href="contact.html">Contact</a>
+
+                        <!-- Dark and Light Mode Toggle -->
+        <button id="themeToggle" class="theme-button"
+        aria-label="Switch to dark mode">
+            🌙
+        </button>
+        
+    </nav>
+ 
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <img src="images/contact1.jpg" alt="Contact us">
+            <p>
+                Thank you for visiting MyBlog! We appreciate your interest in our articles and learning resources. If you have questions, suggestions, or feedback, please feel free to contact us.
+            </p>
+            <p>
+                We value the opinions of our readers and welcome suggestions that can help us improve the quality of our content and services.
+            </p>
+        </section>
+
+        <section>
+        <h2>Send Us A Message</h2>
+            <!-- HTML Form Demonstration -->
+        <form>
+          <p>
+            <label for="name">Full Name:</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="email">Email Address:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="subject">Subject:</label><br />
+
+            <select id="subject" name="subject" required>
+              <option value="">Select a subject</option>
+              <option value="inquiry">General Inquiry</option>
+              <option value="feedback">Feedback</option>
+              <option value="suggestion">Suggestion</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="message">Your Message:</label><br />
+
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              cols="40"
+              placeholder="Write your message here"
+              required
+            ></textarea>
+          </p>
+
+          <p>
+            <input type="checkbox" id="agreement" name="agreement" required />
+
+            <label for="agreement">
+              I understand this is a sample form for training purposes.
+            </label>
+          </p>
+
+          <p>
+            <button type="button">Send Message (Demo Only)</button>
+
+            <button type="reset">Clear Form</button>
+          </p>
+        </form>
+
+            <em>Form note: This is a demonstration form only. Messages will not be submitted or stored.</em>
+            <br />
+        </section>
+
+        <section>
+            <h2>Other Contact Information</h2>
+            <strong>Email: </strong><em>hello@example.com</em> <br>
+            <strong>Website: </strong><em>MyBlog</em> <br>
+            <strong>Location: </strong><em>Philippines</em>
+            <br />
+        </section>
+
+        <section>
+            <h2>Frequently Asked Questions</h2>
+            <strong>How can I contact MyBlog?</strong>
+            <p>You can contact us by using the contact information provided on this page.</p>
+            <strong>Can I suggest topics for future articles?</strong>
+            <p>Yes! We welcome suggestions for articles about technology, education, programming, and other interesting topics.</p>
+            <strong>How often are new articles published?</strong>
+            <p>We aim to publish new content regularly to keep our readers informed and engaged.</p>
+            <br />
+        </section>
+
+    </main>
+    <footer>&copy; 2026 My Blog. All Rights Reserved.</footer>
+</body>
+</html>

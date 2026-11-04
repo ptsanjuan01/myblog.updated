@@ -1,0 +1,402 @@
+
+/* ============================= */
+/* GENERAL BODY */
+/* ============================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F7FA;
+    color: #334155;
+    margin: 0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
+
+header {
+    background-color: #FFFFFF;
+    color: #1E293B;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+}
+
+header h1 {
+    color: #1E293B;
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    color: #64748B;
+    font-size: 16px;
+}
+
+/* ============================= */
+/* NAVIGATION BAR */
+/* ============================= */
+
+nav {
+    background-color: #1E293B;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #93C5FD;
+}
+
+/* ============================= */
+/* MAIN CONTENT */
+/* ============================= */
+
+main {
+    background-color: #FFFFFF;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 25px;
+}
+
+/* ============================= */
+/* WELCOME SECTION */
+/* ============================= */
+
+.background {
+    background-color: #E2E8F0;
+    color: #1E293B;
+    text-align: center;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 6px;
+}
+
+/* ============================= */
+/* HEADINGS */
+/* ============================= */
+
+h2 {
+    background-color: #E2E8F0;
+    text-align: center;
+    color: #1E293B;
+    font-size: 26px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+h3 {
+    color: #334155;
+}
+
+/* ============================= */
+/* PARAGRAPHS */
+/* ============================= */
+
+p, ol, ul, table, strong, em {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #334155;
+}
+
+/* ============================= */
+/* IMAGES */
+/* ============================= */
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* ============================= */
+/* ARTICLES */
+/* ============================= */
+
+article {
+    background-color: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: #334155;
+}
+
+/* ============================= */
+/* LINKS */
+/* ============================= */
+
+a {
+    color: #2563EB;
+}
+
+a:hover {
+    color: #1D4ED8;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer {
+    background-color: #1E293B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ============================= */
+/* HERO SECTION */
+/* ============================= */
+
+.hero {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../images/blog3.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    min-height: 90vh;
+}
+
+/* Hero Content */
+
+.hero-content {
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+/* Hero Title */
+
+.hero h1 {
+    font-size: 42px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Hero Subtitle */
+
+.hero p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Hero Button */
+
+.hero-button {
+    display: inline-block;
+    background-color: #4d687a;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hero Button Hover */
+
+.hero-button:hover {
+    background-color: #223440;
+    color: white;
+    text-decoration: none;
+}
+
+/* ============================= */
+/* MOON AND SUN TOGGLE BUTTON */
+/* ============================= */
+
+.theme-button {
+    background-color: #E2E8F0;
+    color: #1E293B;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 23px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+
+.theme-button:hover {
+    background-color: #CBD5E1;
+    transform: rotate(20deg);
+}
+
+/* ============================= */
+/* DARK MODE THEME */
+/* ============================= */
+
+body.dark-mode {
+    background-color: #0F172A;
+    color: #E2E8F0;
+}
+
+body.dark-mode header {
+    background-color: #1E293B;
+    color: #F8FAFC;
+}
+
+body.dark-mode header h1 {
+    color: #F8FAFC;
+}
+
+body.dark-mode header p {
+    color: #CBD5E1;
+}
+
+/* Dark Navigation */
+
+body.dark-mode nav {
+    background-color: #020617;
+}
+
+body.dark-mode nav a {
+    color: #F8FAFC;
+}
+
+body.dark-mode nav a:hover {
+    color: #93C5FD;
+}
+
+/* Dark Main */
+
+body.dark-mode main {
+    background-color: #1E293B;
+}
+
+/* Dark Welcome Section */
+
+body.dark-mode .background {
+    background-color: #334155;
+    color: #F8FAFC;
+}
+
+/* Dark Headings */
+
+body.dark-mode h2 {
+    background-color: #334155;
+    color: #F8FAFC;
+}
+
+body.dark-mode h3 {
+    color: #F1F5F9;
+}
+
+/* Dark Paragraphs */
+
+body.dark-mode p,
+body.dark-mode ol,
+body.dark-mode ul,
+body.dark-mode table,
+body.dark-mode strong,
+body.dark-mode em {
+    color: #CBD5E1;
+}
+
+/* Dark Articles */
+
+body.dark-mode article {
+    background-color: #273449;
+    border: 1px solid #475569;
+    color: #E2E8F0;
+}
+
+/* Dark Links */
+
+body.dark-mode a {
+    color: #93C5FD;
+}
+
+body.dark-mode a:hover {
+    color: #BFDBFE;
+}
+
+/* Dark Footer */
+
+body.dark-mode footer {
+    background-color: #020617;
+    color: #F8FAFC;
+}
+
+/* Dark Hero Text */
+
+body.dark-mode .hero h1,
+body.dark-mode .hero p {
+    color: white;
+}
+
+/* ============================= */
+/* DARK MODE TOGGLE BUTTON */
+/* ============================= */
+
+body.dark-mode .theme-button {
+    background-color: #334155;
+    color: #FACC15;
+}
+
+body.dark-mode .theme-button:hover {
+    background-color: #475569;
+}
+
+/* ============================= */
+/* RESPONSIVE DESIGN */
+/* ============================= */
+
+@media screen and (max-width: 768px) {
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .hero {
+        background-attachment: scroll;
+        min-height: auto;
+        padding: 60px 15px;
+    }
+
+    .hero-content {
+        padding: 50px 10px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+}
